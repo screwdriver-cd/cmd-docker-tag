@@ -1,3 +1,6 @@
+#!/bin/sh
+set -e
+
 git clone https://github.com/screwdriver-cd/toolbox.git ci
 git fetch
 export DOCKER_TAG=`git describe --tags`
