@@ -1,0 +1,9 @@
+namespace: screwdriver
+name: docker-trigger
+version: '1.0'
+description: |
+  Uses SD toolbox to trigger a Docker build.
+maintainer: screwdriver-oss@verizonmedia.com
+format: binary
+binary:
+  file: ./run.sh
